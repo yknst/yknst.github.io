@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>光怪陆离</title>
+  <title>JXIT</title>
   
-  <subtitle>哈哈哈</subtitle>
+  <subtitle>有点小无聊啊~~</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-15T17:58:35.940Z</updated>
+  <updated>2020-02-13T16:37:34.238Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>雪梦初</name>
+    <name>无目</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>我的第一篇博客&lt;~.~&gt;</title>
-    <link href="http://yoursite.com/2020/02/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2020/02/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-02-15T17:58:35.000Z</published>
-    <updated>2020-02-15T17:58:35.940Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
