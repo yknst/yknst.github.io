@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-18T04:32:13.364Z</updated>
+  <updated>2020-02-18T05:15:22.696Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一个博博客~~</title>
+    <title>我的第一个博客~~</title>
     <link href="http://yoursite.com/2020/02/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/02/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-02-18T04:08:21.000Z</published>
-    <updated>2020-02-18T04:32:13.364Z</updated>
+    <published>2020-02-18T05:15:13.000Z</published>
+    <updated>2020-02-18T05:15:22.696Z</updated>
     
-    <content type="html"><![CDATA[<p>大家好！</p><hr><p>就在前两天，我搭建了这个博客，人生中第一个博客。虽然说是很简单的一件事，但它还是挺(贼)耗(尼)时(玛)间(麻)的(烦)。<br>我选择使用Hexo+GitHub的方式来建立博客。一开始发现hexo一直无法下载，于是用淘宝镜像的命令更新了npm。中途又没仔细看官方的说明，没有发现它的服务器模块被分离了出来，也折腾了好久，成功建立了我的本地博客。<br>然后最麻烦的来了。建立ssh密钥的时候我发现总是会出错，总是无法创建目录，于是我想到可能是路径里包含中文的问题（我的用户名是中文的）。于是我就不断开始创建新用户，经历了很多失败（<strong><em>此处省略一千字</em></strong>），终于创建了一个新的本地用户，并成功地创建了密钥（都是泪啊）。<br>在将本地文件上传到GitHub上时蹦出了openssh的界面框，一时脑抽没想到这个是什么东西，于是又鸽了半天（<del>手动滑稽</del>）。<br>当见到我自己的博客时我一阵激动——（***）我终于建好啦。。。<br>于是又有一堆新问题在等着我（捂脸）。  </p><hr><p>就是这样，今后也请大家多多关照哈（咻pi~）</p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;大家好！</p><hr><p>&emsp;&emsp;就在几天前，我搭建了这个博客，人生中第一个博客。虽然说是很简单的一件事，但它还是挺(<em>贼</em>)耗(<em>尼</em>)时(<em>玛</em>)间(<em>麻</em>)的(<em>烦</em>)。<br>&emsp;&emsp;由于本人是纯小白，所以就选择使用Hexo+GitHub的方式来搭建博客。刚开始开始发现了好多问题：hexo一直无法下载，折腾了半天，用将npm更新的方式解决了这个问题。接下来由于没仔细看官方的说明，没有发现它的服务器模块被分离了出来，也弄了好久，成功建立了我的本地博客。<br>&emsp;&emsp;并且还在建立ssh密钥的时候出现了大问题。我发现命令框里总是提示无法创建目录，于是我猜可能是路径里包含中文的问题（<em>我的用户名是中文的</em>）。于是我就不断开始创建新用户，经历了很多失败（***<strong>此处省略一千字</strong>***），最后创建了一个新的本地用户，并成功地创建了密钥（<strong>都是泪啊</strong>）。<br>&emsp;&emsp;在将本地文件上传到GitHub上时蹦出了openssh的界面框，一时脑抽没想到这个是什么东西，于是又鸽了半天（<del><strong>手动滑稽</strong></del>）。<br>&emsp;&emsp;当见到我自己的博客时我一阵激动——（***）<strong>我终于建好啦。。。</strong><br>&emsp;&emsp;于是又有一堆新问题在等着我（<strong>捂脸</strong>）。  </p><hr><p>&emsp;&emsp;就是这样，今后也请大家多多关照哈（<em><del>咻pi</del>~</em>）</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;大家好！&lt;/p&gt;
+        &lt;p&gt;&amp;emsp;&amp;emsp;大家好！&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;就在前两天，我搭建了这个博客，人生中第一个博客。虽然说是很简单的一件事，但它还是挺(贼)耗(尼)时(玛)间(麻)的(烦)。&lt;br&gt;我选择使用Hexo+GitHub的方式来建立博客。一开始发现hexo一直无法下载，于是用淘宝镜像的命令更新了n
+&lt;p&gt;&amp;emsp;&amp;emsp;就在几天前，我搭建了这个博客，人生中第一个博客。虽然说是很简单的一件事，但它还是挺(&lt;em&gt;贼&lt;/em&gt;)耗(&lt;em&gt;尼&lt;/em&gt;)时(&lt;em&gt;玛&lt;/em&gt;)间(&lt;em&gt;麻&lt;/em&gt;)的(&lt;e
       
     
     </summary>
