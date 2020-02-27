@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yknst.github.io/"/>
-  <updated>2020-02-22T06:53:33.552Z</updated>
+  <updated>2020-02-27T15:16:22.874Z</updated>
   <id>https://yknst.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于启用本地服务器出现&#39;TypeError&#39;的问题</title>
+    <link href="https://yknst.github.io/2020/02/27/%E5%85%B3%E4%BA%8E%E5%90%AF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%87%BA%E7%8E%B0-TypeError-%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://yknst.github.io/2020/02/27/%E5%85%B3%E4%BA%8E%E5%90%AF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%87%BA%E7%8E%B0-TypeError-%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2020-02-27T15:16:10.000Z</published>
+    <updated>2020-02-27T15:16:22.874Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;今天本人想谈谈关于更换主题时遇到的一个小问题：</p><p>&emsp;&emsp;当生成静态文件的时候总是会出现错误，并且启动服务器的时候会出&quot;TypeError&quot;的错误提示（我没截图,<del>尴尬</del>）,我折腾了半天，最后终于发现是我之前不知道从哪下载了一个百度推送的插件，貌似会连接到该插件作者的网站。解决方法也很简单：</p><blockquote><p>使用以下命令来删除此插件：</p><p><kbd>npm uninstall -g hexo-baidu-url-submit</kbd></p><p>或者</p><p>直接在你的本地博客文件夹中找到 node_modules 文件夹，在该文件夹下找到插件并删除它（我用的就是这个方法<del>笑</del>）</p></blockquote><p>&emsp;&emsp;当然，如果遇到诸如此类的情况，也可使用<code>hexo g --debug</code>的命令来查找所出的问题（嗯嗯）。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;今天本人想谈谈关于更换主题时遇到的一个小问题：&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;当生成静态文件的时候总是会出现错误，并且启动服务器的时候会出&amp;quot;TypeError&amp;quot;的错误提示（我没截图,&lt;del&gt;尴尬&lt;/del&gt;）,我折腾了半
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Markdown语法总结</title>
     <link href="https://yknst.github.io/2020/02/22/Markdown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/"/>
     <id>https://yknst.github.io/2020/02/22/Markdown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/</id>
     <published>2020-02-21T16:53:34.000Z</published>
-    <updated>2020-02-22T06:53:33.552Z</updated>
+    <updated>2020-02-22T07:31:30.894Z</updated>
     
     <content type="html"><![CDATA[<p>　　我经历了几天的学习，终于将Markdown的语法初步掌握了。那么接下来就是我对之前学习的一些总结（<del>记性差没办法</del>）:</p><blockquote><p><font color=black size=5><strong>一、标题</strong></font></p><blockquote><p>1.一级标题<br><kbd>============</kbd><br>2.二级标题<br><kbd>------------</kbd>  </p></blockquote><p>或者</p><blockquote><p><kbd>#一级标题 </kbd><br><kbd>##二级标题</kbd><br><kbd>###三级标题</kbd><br><kbd>####四级标题</kbd><br>（<em>可表示1-6级标题</em>）</p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>二、段落格式</strong></font></p><blockquote><p><font color=black><strong>1.段落</strong></font></p><p>在段落末使用两个以上的空格加回车 <font color=red><em>或</em></font> 在段落后面使用一个空行来表示重新开始一个段落。</p></blockquote><blockquote><p><font color=black><strong>2.字体</strong></font></p><p>*斜体*<br>_斜体_<br>**粗体**<br>__粗体__<br>***粗斜体***<br>___粗斜体___</p></blockquote><blockquote><p><font color=black><strong>3.分隔线</strong></font></p><p>***<br>* * *<br>*****<br>- - -<br>----------<br>(可以在星号与减号中间输入空格)</p></blockquote><blockquote><p><font color=black><strong>4.删除线</strong></font></p><p><kbd>~~文本~~</kbd></p><p>老好用了(<del>滑稽</del>)</p></blockquote><blockquote><p><font color=black><strong>5.下划线</strong></font></p><p><kbd>&lt;u&gt;文本&lt;/u&gt;</kbd></p></blockquote><blockquote><p><font color=black><strong>6.脚注</strong></font><br>暂时没弄明白。。。</p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>三、列表</strong></font></p></blockquote><ol><li><font size=3><strong>无序列表</strong></font>：<ul><li>无序列表使用星号(<em>或加号减号</em>)作为列表标记:</li><li><kbd>* 第一项</kbd><br><kbd>* 第二项</kbd><br><kbd>* 第三项</kbd></li></ul></li><li><font size=3><strong>有序列表</strong></font>：<ul><li><kbd>1. 第一项</kbd><br><kbd>2. 第二项</kbd><br><kbd>3. 第三项</kbd></li></ul></li><li><font size=3><strong>列表嵌套</strong></font>：<ul><li><kbd>1. 第一项：<br>　　- 第一项嵌套的第一个元素<br>　　- 第一项嵌套的第二个元素3.<br>2. 第二项：<br>　　- 第二项嵌套的第一个元素<br>　　- 第二项嵌套的第二个元素</kbd></li><li><font color=blue>需在子列表中的选项添加四个空格</font>  </li></ul></li><li><font color=red size=3><strong>之前的文本都是使用区块来划分的,这里我特地用列表来规划(<del><em>笑</em></del>)。</strong></font></li></ol><blockquote><p><font color=black size=5><strong>四、区块</strong></font></p><blockquote><p><font color=black><strong>1.引用</strong></font></p><p>‘&gt;’ + ‘空格’</p></blockquote><blockquote><p><font color=black><strong>2.嵌套</strong></font></p><p><kbd>&gt; 最外层<br>&gt;> 第一层嵌套<br>&gt;>> 第二层嵌套</kbd><br><font color=blue>依此类推<font></p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>五、代码</strong></font></p><blockquote><p><font color=black><strong>1.函数片段</strong></font></p><pre><code>` import`函数</code></pre></blockquote><blockquote><p><font color=black><strong>2.代码区块</strong></font></p><p>使用四个空格或一个Tab键（记事本无法使用）</p><p>也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）</p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>六、链接</strong></font></p><blockquote><p><font color=black><strong>1.链接使用方式</strong></font></p><p><strong>·</strong>[链接名称](链接地址)<br>   <a href="https://www.pixiv.net/" target="_blank" rel="noopener">Pixiv</a><br><font color=red><strong>或</strong></font><br><strong>·</strong>&lt;链接地址&gt;<br><a href="https://www.pixiv.net/" target="_blank" rel="noopener">https://www.pixiv.net/</a></p></blockquote><blockquote><p><font color=black><strong>1.高级链接</strong></font></p><pre><code>链接也可以用变量来代替，文档末尾附带变量地址：      这个链接用 1 作为网址变量 [Google][1]      这个链接用 runoob 作为网址变量 [Pixiv][2]      然后在文档的结尾为变量赋值（网址）     [1]: http://www.google.com/     [2]: https://www.pixiv.net/</code></pre><p><a href="http://www.google.com/" target="_blank" rel="noopener">Google</a><br><a href="https://www.pixiv.net/" target="_blank" rel="noopener">Pixiv</a></p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>七、图片</strong></font></p><blockquote><p><font color=black><strong>语法格式</strong></font></p><pre><code>![alt 属性文本](图片地址 &quot;可选标题&quot;)</code></pre><p><font color=red><strong>或</strong></font></p><pre><code>这个链接用 1 作为网址变量 [Pixiv][1].      然后在文档的结尾为变量赋值（网址）      [1]: https://i.pximg.net/img-original/img/2020/02/15/00/00/06/79494300_p0.png</code></pre></blockquote><blockquote><p>无法指定图片的高度与宽度（可使用&lt;img&gt;标签）<br><font color=black>还在学习中。。。</font></p></blockquote></blockquote><blockquote><p><font color=black size=5><strong>八、表格</strong></font></p><blockquote><p><font color=red>研究中</font></p></blockquote></blockquote>]]></content>
     
