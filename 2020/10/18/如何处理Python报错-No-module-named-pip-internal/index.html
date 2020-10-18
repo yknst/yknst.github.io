@@ -11,7 +11,7 @@
     
     
     
-    <title>archive_a | JXIT</title>
+    <title>如何处理Python报错--- No module named &#39;pip._internal&#39; | JXIT</title>
     <link href="https://yknst.github.io" rel="prefetch" />
 
     
@@ -128,7 +128,7 @@
                 
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/archives">
                         <i class="fa fa-archive"></i>归档
                     </a>
@@ -171,19 +171,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    <article class="article well article-body" id="article-archive">
+                    
+<article class="article well article-body" id="article">
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="https://yknst.github.io">JXIT</a>
         >
-        <span>归档</span>
+        <span>如何处理Python报错--- No module named &#39;pip._internal&#39;</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/archives">归档</a>
+                <a href="/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/">如何处理Python报错--- No module named &#39;pip._internal&#39;</a>
             </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-10-18
+            </span>
+            
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -191,47 +199,33 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/archives">归档</a>
+                    <a href="/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/">如何处理Python报错--- No module named &#39;pip._internal&#39;</a>
                 </h4>
             </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-10-18
+            </p>
+            <p>
+                
+                
+            </p>
         </center>
     </div>
-    <div class="content-article" style="margin-top: 30px;">
-        
-        
-            <h1 style="font-size: 24px; margin-top: 40px;">2020年</h1>
-            
-        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-            
-             
-             
-                        <a href="/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/">如何处理Python报错--- No module named &#39;pip._internal&#39;</a>
-                        <br>
-            
-             
-                        <a href="/2020/07/16/%E5%85%B3%E4%BA%8E%E5%BC%80%E5%90%AF%E7%94%B5%E8%84%91%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E8%BF%99%E6%A1%A3%E4%BA%8B/">关于开启电脑无法使用键盘这档事</a>
-                        <br>
-            
-             
-                        <a href="/2020/02/24/%E5%85%B3%E4%BA%8E%E5%90%AF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%87%BA%E7%8E%B0-TypeError-%E7%9A%84%E9%97%AE%E9%A2%98/">关于启用本地服务器出现&#39;TypeError&#39;的问题</a>
-                        <br>
-            
-             
-                        <a href="/2020/02/22/Markdown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/">Markdown语法总结</a>
-                        <br>
-            
-             
-                        <a href="/2020/02/18/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">我的第一个博客~~</a>
-                        <br>
-            
-             
-                        <a href="/2020/02/14/Hello%20World/">Hello World</a>
-                        <br>
-            
-                    </div>
-        
+    <div class="content-article">
+        <p>&emsp;&emsp;今天在用pip命令下载pygame时发现出现了报错 “No module named ‘pip._internal’” ，这让我想起来前段时间因为下载后出现了warning于是就对pip进行了升级，看来是那个时候出现了问题。</p>
+<p>&emsp;&emsp;于是我在cmd下输入如下命令：</p>
+<blockquote>
+<p>curl <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank" rel="noopener">https://bootstrap.pypa.io/get-pip.py</a> -o get-pip.py</p>
+<p>python get-pip.py –force-reinstall</p>
+</blockquote>
+<p>以此来进行强制安装pip3。</p>
+<p>最后使用<code>pip show pip</code>来验证安装。</p>
+<p>[原文出处][<a href="https://blog.csdn.net/qq_21437451/article/details/81490932]" target="_blank" rel="noopener">https://blog.csdn.net/qq_21437451/article/details/81490932]</a></p>
+
     </div>
 </article>
+
+
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
     <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
@@ -385,7 +379,7 @@
 
                 
                 <li>
-                    <a href="/archives/2020/02/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
