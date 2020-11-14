@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yknst.github.io/"/>
-  <updated>2020-10-18T09:10:19.571Z</updated>
+  <updated>2020-11-14T17:44:00.584Z</updated>
   <id>https://yknst.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>小结</title>
+    <link href="https://yknst.github.io/2020/11/15/%E5%B0%8F%E7%BB%93/"/>
+    <id>https://yknst.github.io/2020/11/15/%E5%B0%8F%E7%BB%93/</id>
+    <published>2020-11-14T17:36:41.000Z</published>
+    <updated>2020-11-14T17:44:00.584Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;经历过了相册无法打开，vs配置失误，笔记本耳机孔无法使用后，我发现’还原设置/恢复默认设置‘是一种非常实用的方法。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;&amp;emsp;经历过了相册无法打开，vs配置失误，笔记本耳机孔无法使用后，我发现’还原设置/恢复默认设置‘是一种非常实用的方法。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>如何处理Python报错--- No module named &#39;pip._internal&#39;</title>
     <link href="https://yknst.github.io/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/"/>
     <id>https://yknst.github.io/2020/10/18/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Python%E6%8A%A5%E9%94%99-No-module-named-pip-internal/</id>
     <published>2020-10-18T08:57:58.000Z</published>
-    <updated>2020-10-18T09:10:19.571Z</updated>
+    <updated>2020-10-18T09:11:54.910Z</updated>
     
     <content type="html"><![CDATA[<p>&emsp;&emsp;今天在用pip命令下载pygame时发现出现了报错 “No module named ‘pip._internal’” ，这让我想起来前段时间因为下载后出现了warning于是就对pip进行了升级，看来是那个时候出现了问题。</p><p>&emsp;&emsp;于是我在cmd下输入如下命令：</p><blockquote><p>curl <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank" rel="noopener">https://bootstrap.pypa.io/get-pip.py</a> -o get-pip.py</p><p>python get-pip.py –force-reinstall</p></blockquote><p>以此来进行强制安装pip3。</p><p>最后使用<code>pip show pip</code>来验证安装。</p><p>[原文出处][<a href="https://blog.csdn.net/qq_21437451/article/details/81490932]" target="_blank" rel="noopener">https://blog.csdn.net/qq_21437451/article/details/81490932]</a></p>]]></content>
     
