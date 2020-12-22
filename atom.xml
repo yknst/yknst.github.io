@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yknst.github.io/"/>
-  <updated>2020-11-14T17:44:00.584Z</updated>
+  <updated>2020-12-22T07:24:09.210Z</updated>
   <id>https://yknst.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于云打印服务的实现这档子事</title>
+    <link href="https://yknst.github.io/2020/12/22/%E5%85%B3%E4%BA%8E%E4%BA%91%E6%89%93%E5%8D%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/"/>
+    <id>https://yknst.github.io/2020/12/22/%E5%85%B3%E4%BA%8E%E4%BA%91%E6%89%93%E5%8D%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/</id>
+    <published>2020-12-22T07:21:26.000Z</published>
+    <updated>2020-12-22T07:24:09.210Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;最近社团里有一个项目，就是用社团里的打印机实现云打印的功能，一是每次打印都要接USB插头比较麻烦，另外我个人对这个东西也感兴趣，于是就接手了这个项目。</p><p>&emsp;&emsp;当然，我在操作的过程中也遇到过几个难点，这边就挑出来说一下:</p><p>&emsp;&emsp;<strong>一、同一局域网下的其他主机无法访问cups主页</strong></p><blockquote><p>由于之前学长搞了几天都卡在这个问题上，所以我第一个要面对的问题就是这个。</p><p>服务启动后，cups的主页能在本地显示，但同一局域网下的其他设备却没有办法访问，我将配置文件重新看了一遍，并没有发现什么问题。然后我在网上搜索了一些教程之后，根据   <a href="https://blog.csdn.net/z619193774/article/details/79352982" target="_blank" rel="noopener">ubuntu搭建cups打印机服务器</a>   这篇博客将防火墙关闭，并将防火墙管理工具卸载。这样在其他主机上就能访问cups主页了。但第二天我又一想，这又没有什么必要，应该只是防火墙的规则设置问题，为什么要把它给卸了呢(<del>捂脸笑</del>)。于是我将ufw与iptables都下了回来，并根据   <a href="https://www.jb51.net/os/Ubuntu/657129.html" target="_blank" rel="noopener">Ubuntu防火墙怎么关闭或打开?</a>    这篇教程将防火墙设置成外来访问默认允许。OK，搞定。</p></blockquote><p>&emsp;&emsp;<strong>二、连接云打印器需要网络凭据</strong></p><blockquote><p>为了能够方便访问打印设备，我根据   <a href="https://blog.csdn.net/ya6543/article/details/107775849?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control" target="_blank" rel="noopener">Ubuntu系统配置共享打印机及Windows连接教程</a>   这篇教程配置了samba服务，但是在访问的时候却遇到了难题，连接打印机时出现了网络凭据，但我完全不知道账户密码是什么，最后输入了主机的账户密码蒙混过关了——关于samba服务的方面我会在之后的更新。</p></blockquote><p>&emsp;&emsp;我所遇到的比较大的问题就以上两个，虽然云打印的功能已经完成了，但里面的涉及到的防火墙、samba服务还可以接着深入，这些东西我会在接下来的时间继续了解。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;emsp;最近社团里有一个项目，就是用社团里的打印机实现云打印的功能，一是每次打印都要接USB插头比较麻烦，另外我个人对这个东西也感兴趣，于是就接手了这个项目。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;当然，我在操作的过程中也遇到过几个难点，这边就挑出来说一下:&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>小结</title>
